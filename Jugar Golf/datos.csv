@@ -1,0 +1,11 @@
+﻿id','clima','temperatura','humedad','viento','palos','jugar
+1','lluvioso','frio','normal','no','buenos','si
+2','lluvioso','frio','normal','si','buenos','no
+3','nublado','caliente','alta','no','buenos','si
+4','soleado','templado','alta','no','malos','no
+5','lluvioso','frio','normal','no','buenos','si
+6','soleado','frio','normal','no','buenos','si
+7','lluvioso','frio','normal','no','malos','si
+8','soleado','caliente','normal','no','buenos','si
+9','nublado','templado','alta','si','malos','si
+10','soleado','templado','alta','si','buenos','no
