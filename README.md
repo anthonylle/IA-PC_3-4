@@ -39,12 +39,15 @@ Para visitar el repositorio de GitHub de este Notebook, visite este [enlace](htt
  Para más detalles acerca de la ejecución puede consultar el siguiente link: [Corriendo Notebook](https://jupyter.readthedocs.io/en/latest/running.html#running)
  
  ### Paquetes implementados
-  - Argparse
-  - Scikit-learn
-  - Numpy
-  - Matplotlib
-  - Scipy
-  - Easydict
+  - pydotplus
+  - pandas
+  - sklearn
+  - collections
+  - iPython
+  - graphviz
+  - seaborn
+  - pillow
+  
  
  #### Instalación de paquetes
 Jupyter permite dentro de sus bloques de código ejecutar scripts de instalación de paquetes, para este caso basta con escribir al inicio del codigo los paquetes que requiere,
