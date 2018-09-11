@@ -1,8 +1,8 @@
-# Inteligencia Artificial - Proyecto Corto 3 & 4
-Modelo de predicción: Árboles de decisión. Explicado utilizando Jupyter Notebook
+# Inteligencia Artificial - Proyecto Corto 1 
+Técnica de optimización: Stochastic Gradient Descent explicada utilizando Jupyter Notebook
 
 ### Enlace de GitHub
-Para visitar el repositorio de GitHub de este Notebook, visite este [enlace](https://github.com/anthonylle/IA-PC_3-4)
+Para visitar el repositorio de GitHub de este Notebook, visite este [enlace](https://github.com/anthonylle/IA-PC1)
 
 #### Prerequisitos
   - Tener previamente instalado una versión de Python (3.6 ó 2.7)
@@ -31,7 +31,7 @@ Para visitar el repositorio de GitHub de este Notebook, visite este [enlace](htt
  
  1. Abrir una terminal.
  2. Dirigirse al directorio raíz del proyecto Jupyter Notebook.
- 3. Escribir el siguiente comando: jupyter notebook --no-browser
+ 3. Escirbir el siguiente comando: jupyter notebook --no-browser
  4. Abrir el navegador de su preferencia.
  5. En una nueva pestaña pegar lo siguiente: http://localhost:8888/
  6. Listo el Notebook Dashboard queda listo para usar.
@@ -52,14 +52,12 @@ como se muestra a continuacion:
 
 ```python
 import sys
-!{sys.executable} -m pip install pydotplus
-!{sys.executable} -m pip install pandas
-!{sys.executable} -m pip install sklearn
-!{sys.executable} -m pip install collections
-!{sys.executable} -m pip install IPython
-!{sys.executable} -m pip install graphviz
-!{sys.executable} -m pip install seaborn
-!{sys.executable} -m pip install pillow
+!{sys.executable} -m pip install argparse
+!{sys.executable} -m pip install -U scikit-learn
+!{sys.executable} -m pip install numpy
+!{sys.executable} python -mpip install matplotlib
+!{sys.executable} -m pip install scipy
+!{sys.executable} -m pip install easydict
 ```
 
 Si ya cuenta con alguno de estos paquetes y no desea que pip realice una reinstalación de los mismos, puede elegir entre los cuáles no cuenta e instalarlos: 
